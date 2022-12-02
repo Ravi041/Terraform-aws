@@ -3,7 +3,7 @@ data "template_file" "sri_s3_bucket_policy" {
 
 }
 resource "aws_s3_bucket" "sri-terraform_state" {
-  bucket = "sri-project-state"
+  bucket = "ravi-project-state-041"
  
   # Prevent accidental deletion of this S3 bucket
   lifecycle {
