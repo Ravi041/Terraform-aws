@@ -6,8 +6,8 @@ terraform {
     region         = "us-east-1"
     dynamodb_table = "terraform-sri-project-locks"
     encrypt        = true
-   # profile        = "sri-profile"
-    access_key     = "add-access_key"
-    secret_key     = "add-secret_key"
+    profile        = "ravi=profile"
+    access_key     = "AKIAXPQBNOQSJ5IPKUUC"
+    secret_key     = "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"
     }
 }
