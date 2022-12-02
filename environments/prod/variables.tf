@@ -1,11 +1,11 @@
 variable "access_key"{
-  default = "AKIAXPQBNOQSJ5IPKUUC"
+  default = "add-access_key"
 }
 variable "secret_key"{
-    default = "VVV0hN2OJqBnu/AozwEhxDP40wcVWrh8qoNKtZln"
+    default = "add-secret_key"
 } 
 variable "AWS_PROFILE"{
-  default = "ravi=profile"
+  default = "sri-profile"
 }
 
 variable "vpc_cidr_block" {
@@ -50,9 +50,8 @@ variable "subnets" {
   default = "subnet-0275b0d5385af2856"
 }
 variable "key_name"{
-  default = "ravi-devops"
+  default = "sri-devops"
 }
 variable "public_key"{
-  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCkksG9cEtya4VatbClVPj2sMPA7H8rOjdtxikKbuIRo/eVsztBGg6MOrsHJaRrUDrBwaZrzZIqFLkBMSFgxsUFk0tANZsvLXlpFgY16p2oZrh4/7JbKMXYunZoVk+ZnR36s0y1fYSFav5TUa0BTKUTSkADaltdkewNQFzQ+a/q1zAUe1irEV6Vh6OQVmg2IahdZ8mGQ0kcnkKDFnRwAmzXsLwsZJtfRD/j2N1qgtGZ/J4+Sos4kptbOs+W2JDvkTph9iATXZdHKo5C6Y44cNNCuXWhdLSmhW57Q+It+WUqeKcMdtLbOYa7ucl9fWlbfb3u417qM14a8g53SCfs5FPStQbGW3FXda81JcSCczkiQwO4zxYM3MPBIejsf4WHtpVNpJ/DGQ8rER/14wjbJioFhx/PgPU7QYwo2tk1MqnLMT5pBR+nVof9kV619ArQn54OQ9MH1zeQaY6cDY0SdqPOHiPPF456l9d/a9/VzKQjMMHurtfSRLQHHRMJ0BwP298= ADMIRALINDIA+Ravindra.Kumar@AIL-OP-LR0F4Z5F"
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCczG5DLFqsECydDGMLh784V+X1mb/x2cCeuviGD/uBCMzIhKvDJuguSDDMdxh9HPJs3EBsIJVNkTp1Q/MVptrtzvd4VmxppM8+lFoZFkibrUrO8vzw8RtY1OgswA+5QMsfMSnU+1sS2tWkTkyMaYgdjm/hU38KAVvZvCsapH/Lo/+63V00HfHIaarxWBHoA0xgERDTTFlU78VNJeL6rGRd09NFN59WNaBWmT82t2RJiKT6HXQzPsWRu/UIl6C66RdURsyXYJYRnK957Mnwvob1f5uD1J7FBiHZJt0105dZE1IsS9yoxtZ44zQFTF1T9nnNpBAP1RJEbp4OggqlKXoL"
 }
-
