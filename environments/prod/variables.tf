@@ -35,7 +35,7 @@ variable "ssh_public_key" {
 }
 
 variable "ami" {
-  default = "ami-09d3b3274b6c5d4aa"
+  default = "ami-0b0dcb5067f052a63"
 }
 
 variable "instance_type" {
