@@ -7,7 +7,7 @@ terraform {
     dynamodb_table = "terraform-sri-project-locks"
     encrypt        = true
    # profile        = "sri-profile"
-    access_key     = "add-access_key"
-    secret_key     = "add-secret_key"
+    access_key     = "AKIA4SBXJZOHSW2XJXCV"
+    secret_key     = "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"
     }
 }
