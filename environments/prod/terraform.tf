@@ -1,5 +1,5 @@
 terraform {
-  required_version = ">= 1.1.0"
+  required_version = ">=0.12.13"
 
 /*  backend "s3" {
     bucket         = "sri-project-state-ravi041"
@@ -12,11 +12,4 @@ terraform {
     secret_key     = "Zyj24yI60GzBFvKVgA8JpGwWn+ZvdQufgPh8I5n+"
     }
 */
-  cloud {
-    organization = "gh-actions-demo-ravi041"
-
-    workspaces {
-      name = "gh-actions-demo"
-    }
-  }
 } 

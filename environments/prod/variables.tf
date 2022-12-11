@@ -1,8 +1,8 @@
 variable "access_key"{
-  default = "AKIASWHIJLCPTPT7MWIQ"
+  default = "AKIA2RSTPIVLKUJYAVPM"
 }
 variable "secret_key"{
-    default = "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"
+    default = "ywPGJE8cF9zEWMnUfvNku0xOx4RvHEt33BW77O2I"
 } 
 variable "AWS_PROFILE"{
   default = "sri-profile"
